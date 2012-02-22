@@ -1,0 +1,29 @@
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'moviePlayerViewController' requires method '-moviePlayerViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'moviePlayerViewController' requires the method 'setMoviePlayerViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'videoDetailViewController' requires method '-videoDetailViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'videoDetailViewController' requires the method 'setVideoDetailViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'currentVideo' requires method '-currentVideo' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'currentVideo' requires the method 'setCurrentVideo:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'sharingViewController' requires method '-sharingViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: property 'sharingViewController' requires the method 'setSharingViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: incomplete implementation of class 'FirstViewController'
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-centerSharingView:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-startCallToServer' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-relatedVideoSelected:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-initSharingView:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: incomplete implementation of class 'FirstViewController'
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-relatedVideoSelected:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-initSharingView:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: class 'FirstViewController' does not fully implement the 'VideoDetailViewControllerDelegate' protocol
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: incomplete implementation of class 'FirstViewController'
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-shouldAnimateEmailComposePresentation' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-viewControllerToPresentEmailCompose' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-closeSharingView' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: class 'FirstViewController' does not fully implement the 'BCSharingViewDelegate' protocol
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: incomplete implementation of class 'FirstViewController'
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-videoSelectedFromPlaylist:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: class 'FirstViewController' does not fully implement the 'ScrollingPlaylistViewDelegate' protocol
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: incomplete implementation of class 'FirstViewController'
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-playPreviousVideo:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: method definition for '-playNextVideo:' not found
+/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m:63: warning: class 'FirstViewController' does not fully implement the 'MoviePlayerViewControllerDelegate' protocol

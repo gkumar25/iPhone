@@ -1,0 +1,1835 @@
+Tcustom-keyboard
+v7
+r0
+t338581397.697707
+cCheck dependencies
+cProcessInfoPlistFile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Info.plist custom_keyboard-Info.plist
+cCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib
+cCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib
+cCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib
+cCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInject.txt "Twitter+OAuth/Libraries & Headers/jQueryInject.txt"
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInjectLandscape.txt "Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt"
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/twitter_load.png Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/delete.gif delete.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/facebook.jpeg facebook.jpeg
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/globe.gif globe.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/return.gif return.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/shift.gif shift.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/space.gif space.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/twiiter.jpeg twiiter.jpeg
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/u1.gif u1.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/u2.gif u2.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/a1.gif a1.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/a2.gif a2.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/tra.gif tra.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/an1.gif an1.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/an3.gif an3.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohm.gif ohm.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohn.gif ohn.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/oan.gif oan.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru.gif ru.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru1.gif ru1.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru2.gif ru2.gif
+cCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/Icon.png Icon.png
+cProcessPCH /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch.gch custom_keyboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/main.o /Users/gauravkumar/Desktop/custom-keyboard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardAppDelegate.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardViewController.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiKeyboardView.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiVowels.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FacebookAgent.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBConnectGlobal.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBFeedDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginButton.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBPermissionDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBRequest.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBSession.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBStreamDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBXMLHandler.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterEngine.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSData+Base64.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSString+UUID.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterController.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterEngine.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard normal i386
+cGenerateDSYMFile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard
+cTouch /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004C5A5EA10000000000001449
+t1280990881
+s5193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml/xmlreader.h
+c000000004C5A4D3F0000000000003107
+t1280986431
+s12551
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libxml2.dylib
+c000000004C5A4D400000000000122A80
+t1280986432
+s1190528
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.h
+c000000004E710339000000000000012E
+t1316029241
+s302
+i<UIKit/UIKit.h>
+i<AVFoundation/AVAudioPlayer.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m
+c000000004E71034600000000000001D4
+t1316029254
+s468
+i"HindiKeyboardView.h"
+i"custom_keyboardAppDelegate.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.h
+c000000004E7E1EAF0000000000000196
+t1316888239
+s406
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m
+c000000004E7E1EFF0000000000000253
+t1316888319
+s595
+i"HindiVowels.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.h
+c000000004E768490000000000000040F
+t1316390032
+s1039
+i<UIKit/UIKit.h>
+i<AVFoundation/AVAudioPlayer.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m
+c000000004E71081A0000000000001BE6
+t1316030490
+s7142
+i"custom_keyboardAppDelegate.h"
+i"custom_keyboardViewController.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.h
+c000000004E710209000000000000030B
+t1316028937
+s779
+i<UIKit/UIKit.h>
+i"FacebookAgent.h"
+i"SA_OAuthTwitterController.h"
+i<AVFoundation/AVAudioPlayer.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m
+c000000004E76D2950000000000000D50
+t1316410005
+s3408
+i"custom_keyboardViewController.h"
+i"custom_keyboardAppDelegate.h"
+i"SA_OAuthTwitterEngine.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.h
+c000000004B4E071B0000000000001CC9
+t1263404827
+s7369
+i<Foundation/Foundation.h>
+i"FBConnect.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m
+c000000004B4E071E000000000000355E
+t1263404830
+s13662
+i"FacebookAgent.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBConnect.h
+c000000004B4454210000000000000301
+t1262769185
+s769
+i"FBSession.h"
+i"FBRequest.h"
+i"FBLoginButton.h"
+i"FBLoginDialog.h"
+i"FBPermissionDialog.h"
+i"FBFeedDialog.h"
+i"FBStreamDialog.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBConnectGlobal.h
+c000000004AD3A5240000000000001E6E
+t1255384356
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBDialog.h
+c000000004B4454210000000000000EDF
+t1262769185
+s3807
+i"FBConnectGlobal.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBFeedDialog.h
+c000000004B4454210000000000000574
+t1262769185
+s1396
+i"FBDialog.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBLoginButton.h
+c000000004B4454210000000000000597
+t1262769185
+s1431
+i"FBSession.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBLoginDialog.h
+c000000004B44542100000000000002DD
+t1262769185
+s733
+i"FBDialog.h"
+i"FBRequest.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBPermissionDialog.h
+c000000004B4454210000000000000382
+t1262769185
+s898
+i"FBLoginDialog.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBRequest.h
+c000000004B445421000000000000114F
+t1262769185
+s4431
+i"FBConnectGlobal.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBSession.h
+c000000004B445421000000000000151A
+t1262769185
+s5402
+i"FBConnectGlobal.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnect/FBStreamDialog.h
+c000000004B4454210000000000000835
+t1262769185
+s2101
+i"FBDialog.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m
+c000000004B4454210000000000000509
+t1262769185
+s1289
+i"FBConnectGlobal.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m
+c000000004B44542100000000000051C7
+t1262769185
+s20935
+i"FBDialog.h"
+i"FBSession.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m
+c000000004B4454210000000000000BD3
+t1262769185
+s3027
+i"FBFeedDialog.h"
+i"FBSession.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m
+c000000004B445421000000000000109E
+t1262769185
+s4254
+i"FBLoginButton.h"
+i"FBLoginDialog.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m
+c000000004B4454210000000000000FF0
+t1262769185
+s4080
+i"FBLoginDialog.h"
+i"FBSession.h"
+i"FBRequest.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m
+c000000004B4454210000000000000C74
+t1262769185
+s3188
+i"FBPermissionDialog.h"
+i"FBSession.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m
+c000000004B4454210000000000002F5B
+t1262769185
+s12123
+i"FBRequest.h"
+i"FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m
+c000000004B4454210000000000002113
+t1262769185
+s8467
+i"FBSession.h"
+i"FBRequest.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m
+c000000004B445421000000000000099D
+t1262769185
+s2461
+i"FBStreamDialog.h"
+i"FBSession.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.h
+c000000004B44542100000000000003BF
+t1262769185
+s959
+i"FBConnectGlobal.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m
+c000000004AD3A5240000000000001148
+t1255384356
+s4424
+i"FBXMLHandler.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib
+c000000004E331442000000000001407E
+t1311970370
+s82046
+
+N/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib
+c000000004E7E1D960000000000011A24
+t1316887958
+s72228
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Icon.png
+c000000004E7D034A0000000000000F12
+t1316815690
+s3858
+
+N/Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib
+c000000004E07B3980000000000004E89
+t1309127576
+s20105
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSMutableURLRequest+Parameters.h
+c000000004C0FA30400000000000005AB
+t1276093188
+s1451
+i<Foundation/Foundation.h>
+i"OARequestParameter.h"
+i"NSURL+Base.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSString+URLEncoding.h
+c000000004C0FA304000000000000055D
+t1276093188
+s1373
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSURL+Base.h
+c000000004C0FA3040000000000000540
+t1276093188
+s1344
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAConsumer.h
+c000000004C0FA30400000000000005CF
+t1276093188
+s1487
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OADataFetcher.h
+c000000004C0FA30400000000000006D6
+t1276093188
+s1750
+i<Foundation/Foundation.h>
+i"OAMutableURLRequest.h"
+i"OAServiceTicket.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAHMAC_SHA1SignatureProvider.h
+c000000004C0FA3040000000000000573
+t1276093188
+s1395
+i<Foundation/Foundation.h>
+i"OASignatureProviding.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAMutableURLRequest.h
+c000000004C0FA30400000000000008EF
+t1276093188
+s2287
+i<Foundation/Foundation.h>
+i"OAConsumer.h"
+i"OAToken.h"
+i"OAHMAC_SHA1SignatureProvider.h"
+i"OASignatureProviding.h"
+i"NSMutableURLRequest+Parameters.h"
+i"NSURL+Base.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OARequestParameter.h
+c000000004C0FA30400000000000006B5
+t1276093188
+s1717
+i<Foundation/Foundation.h>
+i"NSString+URLEncoding.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAServiceTicket.h
+c000000004C0FA3040000000000000695
+t1276093188
+s1685
+i<Foundation/Foundation.h>
+i"OAMutableURLRequest.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OASignatureProviding.h
+c000000004C0FA304000000000000057A
+t1276093188
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAToken.h
+c000000004C0FA3040000000000000753
+t1276093188
+s1875
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInject.txt
+c000000004C0FA30400000000000007A0
+t1276093188
+s1952
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt
+c000000004C0FA30400000000000007A0
+t1276093188
+s1952
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/libOAuth.a
+c000000004C0FA304000000000008DF6C
+t1276093188
+s581484
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.h
+c000000004C0FA304000000000000213C
+t1276093188
+s8508
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterEngineDelegate.h"
+i"MGTwitterParserDelegate.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m
+c000000004C0FA304000000000000D21D
+t1276093188
+s53789
+i"MGTwitterEngine.h"
+i"MGTwitterHTTPURLConnection.h"
+i"NSData+Base64.h"
+i"MGTwitterStatusesYAJLParser.h"
+i"MGTwitterMessagesYAJLParser.h"
+i"MGTwitterUsersYAJLParser.h"
+i"MGTwitterMiscYAJLParser.h"
+i"MGTwitterSearchYAJLParser.h"
+i"MGTwitterStatusesLibXMLParser.h"
+i"MGTwitterMessagesLibXMLParser.h"
+i"MGTwitterUsersLibXMLParser.h"
+i"MGTwitterMiscLibXMLParser.h"
+i"MGTwitterStatusesParser.h"
+i"MGTwitterUsersParser.h"
+i"MGTwitterMessagesParser.h"
+i"MGTwitterMiscParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngineDelegate.h
+c000000004C0FA30400000000000008CF
+t1276093188
+s2255
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngineGlobalHeader.h
+c000000004C0FA30400000000000007EC
+t1276093188
+s2028
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.h
+c000000004C0FA3040000000000000485
+t1276093188
+s1157
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterRequestTypes.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m
+c000000004C0FA304000000000000065A
+t1276093188
+s1626
+i"MGTwitterHTTPURLConnection.h"
+i"NSString+UUID.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.h
+c000000004C0FA3040000000000000600
+t1276093188
+s1536
+i"MGTwitterEngineGlobalHeader.h"
+i<libxml/xmlreader.h>
+i"MGTwitterParserDelegate.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m
+c000000004C0FA3040000000000002684
+t1276093188
+s9860
+i"MGTwitterLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.h
+c000000004C0FA304000000000000012A
+t1276093188
+s298
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m
+c000000004C0FA3040000000000000CD2
+t1276093188
+s3282
+i"MGTwitterMessagesLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.h
+c000000004C0FA3040000000000000122
+t1276093188
+s290
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m
+c000000004C0FA304000000000000076B
+t1276093188
+s1899
+i"MGTwitterMessagesParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.h
+c000000004C0FA3040000000000000122
+t1276093188
+s290
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m
+c000000004C0FA3040000000000000527
+t1276093188
+s1319
+i"MGTwitterMiscLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.h
+c000000004C0FA3040000000000000130
+t1276093188
+s304
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m
+c000000004C0FA304000000000000056A
+t1276093188
+s1386
+i"MGTwitterMiscParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterParserDelegate.h
+c000000004C0FA3040000000000000330
+t1276093188
+s816
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterRequestTypes.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterRequestTypes.h
+c000000004C0FA304000000000000105F
+t1276093188
+s4191
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.h
+c000000004C0FA304000000000000012A
+t1276093188
+s298
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m
+c000000004C0FA30400000000000003A3
+t1276093188
+s931
+i"MGTwitterStatusesLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.h
+c000000004C99C1C3000000000000012E
+t1285145027
+s302
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m
+c000000004C0FA304000000000000084B
+t1276093188
+s2123
+i"MGTwitterStatusesParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.h
+c000000004C0FA3040000000000000124
+t1276093188
+s292
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m
+c000000004C0FA3040000000000000392
+t1276093188
+s914
+i"MGTwitterUsersLibXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.h
+c000000004C0FA304000000000000011C
+t1276093188
+s284
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m
+c000000004C0FA30400000000000006F2
+t1276093188
+s1778
+i"MGTwitterUsersParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.h
+c000000004C99C228000000000000046F
+t1285145128
+s1135
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterParserDelegate.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m
+c000000004C0FA304000000000000131F
+t1276093188
+s4895
+i"MGTwitterXMLParser.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.h
+c000000004C0FA3040000000000000602
+t1276093188
+s1538
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m
+c000000004C0FA3040000000000000F65
+t1276093188
+s3941
+i"NSData+Base64.h"
+i<Foundation/Foundation.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.h
+c000000004C0FA30400000000000000ED
+t1276093188
+s237
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m
+c000000004C0FA30400000000000001E3
+t1276093188
+s483
+i"NSString+UUID.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.h
+c000000004C0FA304000000000000077A
+t1276093188
+s1914
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m
+c000000004C0FA304000000000000397A
+t1276093188
+s14714
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"SA_OAuthTwitterEngine.h"
+i"SA_OAuthTwitterController.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.h
+c000000004C0FA304000000000000073C
+t1276093188
+s1852
+i"MGTwitterEngine.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m
+c000000004C0FA30400000000000039BA
+t1276093188
+s14778
+i"MGTwitterHTTPURLConnection.h"
+i"OAConsumer.h"
+i"OAMutableURLRequest.h"
+i"OADataFetcher.h"
+i"SA_OAuthTwitterEngine.h"
+
+N/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+c000000004C0FA3040000000000009155
+t1276093188
+s37205
+
+N/Users/gauravkumar/Desktop/custom-keyboard/a1.gif
+c000000004E719E8A0000000000000192
+t1316069002
+s402
+
+N/Users/gauravkumar/Desktop/custom-keyboard/a2.gif
+c000000004E719ED00000000000000284
+t1316069072
+s644
+
+N/Users/gauravkumar/Desktop/custom-keyboard/an1.gif
+c000000004E72330100000000000004A5
+t1316107009
+s1189
+
+N/Users/gauravkumar/Desktop/custom-keyboard/an3.gif
+c000000004E7234510000000000000491
+t1316107345
+s1169
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBConnectGlobal.o
+t1316888594
+s7440
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBDialog.o
+t1316888595
+s95232
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBFeedDialog.o
+t1316888595
+s44896
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginButton.o
+t1316888595
+s51152
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginDialog.o
+t1316888595
+s47972
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBPermissionDialog.o
+t1316888595
+s44436
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBRequest.o
+t1316888595
+s47592
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBSession.o
+t1316888595
+s33236
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBStreamDialog.o
+t1316888595
+s43516
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBXMLHandler.o
+t1316888596
+s20248
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FacebookAgent.o
+t1316888595
+s90048
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiKeyboardView.o
+t1316888594
+s34116
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiVowels.o
+t1316888594
+s35628
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterEngine.o
+t1316888596
+s91312
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
+t1316888596
+s16172
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterLibXMLParser.o
+t1316888596
+s29884
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
+t1316888596
+s14440
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesParser.o
+t1316888596
+s13028
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
+t1316888596
+s11868
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscParser.o
+t1316888596
+s12740
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
+t1316888596
+s10628
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesParser.o
+t1316888596
+s16772
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
+t1316888596
+s10580
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersParser.o
+t1316888596
+s12896
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterXMLParser.o
+t1316888597
+s24868
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSData+Base64.o
+t1316888597
+s11732
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSString+UUID.o
+t1316888597
+s6748
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterController.o
+t1316888597
+s76360
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterEngine.o
+t1316888597
+s42640
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom-keyboard.LinkFileList
+c000000004E7E20100000000000001519
+t1316888592
+s5401
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardAppDelegate.o
+t1316888594
+s69396
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardViewController.o
+t1316888594
+s55164
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/main.o
+t1316888594
+s6296
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app
+t1316888597
+s1122
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM
+t1316888597
+s102
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/HindiKeyboardView.nib
+t1316888593
+s14195
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/HindiVowels.nib
+t1316888593
+s12949
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Icon.png
+t1316888594
+s3858
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Info.plist
+t1316888592
+s667
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/MainWindow.nib
+t1316888593
+s1697
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/PkgInfo
+t1316888592
+s8
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/a1.gif
+t1316888594
+s402
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/a2.gif
+t1316888594
+s644
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/an1.gif
+t1316888594
+s1189
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/an3.gif
+t1316888594
+s1169
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard
+t1316888597
+s304576
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom_keyboardViewController.nib
+t1316888593
+s3942
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/delete.gif
+t1316888594
+s1769
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/facebook.jpeg
+t1316888594
+s3953
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/globe.gif
+t1316888594
+s2106
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInject.txt
+t1316888594
+s1952
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInjectLandscape.txt
+t1316888594
+s1952
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/oan.gif
+t1316888594
+s762
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohm.gif
+t1316888594
+s789
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohn.gif
+t1316888594
+s724
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/return.gif
+t1316888594
+s2262
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru.gif
+t1316888594
+s663
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru1.gif
+t1316888594
+s1150
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru2.gif
+t1316888594
+s766
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/shift.gif
+t1316888594
+s2056
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/space.gif
+t1316888594
+s2499
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/tra.gif
+t1316888594
+s604
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/twiiter.jpeg
+t1316888594
+s4862
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/twitter_load.png
+t1316888594
+s37205
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/u1.gif
+t1316888594
+s630
+
+N/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/u2.gif
+t1316888594
+s621
+
+N/Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib
+c000000004E76D2F300000000000063B5
+t1316410099
+s25525
+
+N/Users/gauravkumar/Desktop/custom-keyboard/custom_keyboard_Prefix.pch
+c000000004E07B39800000000000000C7
+t1309127576
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/delete.gif
+c000000004E163F5D00000000000006E9
+t1310080861
+s1769
+
+N/Users/gauravkumar/Desktop/custom-keyboard/facebook.jpeg
+c000000004E1AA9280000000000000F71
+t1310370088
+s3953
+
+N/Users/gauravkumar/Desktop/custom-keyboard/globe.gif
+c000000004E1A931E000000000000083A
+t1310364446
+s2106
+
+N/Users/gauravkumar/Desktop/custom-keyboard/main.m
+c000000004E07B3980000000000000173
+t1309127576
+s371
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/custom-keyboard/oan.gif
+c000000004E765C0800000000000002FA
+t1316379656
+s762
+
+N/Users/gauravkumar/Desktop/custom-keyboard/ohm.gif
+c000000004E763ADD0000000000000315
+t1316371165
+s789
+
+N/Users/gauravkumar/Desktop/custom-keyboard/ohn.gif
+c000000004E7647BF00000000000002D4
+t1316374463
+s724
+
+N/Users/gauravkumar/Desktop/custom-keyboard/return.gif
+c000000004E1A922700000000000008D6
+t1310364199
+s2262
+
+N/Users/gauravkumar/Desktop/custom-keyboard/ru.gif
+c000000004E765DA80000000000000297
+t1316380072
+s663
+
+N/Users/gauravkumar/Desktop/custom-keyboard/ru1.gif
+c000000004E765DD8000000000000047E
+t1316380120
+s1150
+
+N/Users/gauravkumar/Desktop/custom-keyboard/ru2.gif
+c000000004E765E9700000000000002FE
+t1316380311
+s766
+
+N/Users/gauravkumar/Desktop/custom-keyboard/shift.gif
+c000000004E163F030000000000000808
+t1310080771
+s2056
+
+N/Users/gauravkumar/Desktop/custom-keyboard/space.gif
+c000000004E1A91F100000000000009C3
+t1310364145
+s2499
+
+N/Users/gauravkumar/Desktop/custom-keyboard/tra.gif
+c000000004E719FF1000000000000025C
+t1316069361
+s604
+
+N/Users/gauravkumar/Desktop/custom-keyboard/twiiter.jpeg
+c000000004E1AA93900000000000012FE
+t1310370105
+s4862
+
+N/Users/gauravkumar/Desktop/custom-keyboard/u1.gif
+c000000004E719ADF0000000000000276
+t1316068063
+s630
+
+N/Users/gauravkumar/Desktop/custom-keyboard/u2.gif
+c000000004E719D48000000000000026D
+t1316068680
+s621
+
+N/var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch.gch
+t1316808649
+s14871568
+
+Ncustom_keyboard-Info.plist
+c000000004E7D00A90000000000000387
+t1316815017
+s903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338581392#338581392#0(0"0(0#1#0"8603170336#0"0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBConnectGlobal.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.766859
+e338581394.838685
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBConnectGlobal.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m338581394#338581394#0(0"0(0#0#78"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m8614996512#2535"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBConnectGlobal.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBConnectGlobal.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.838789
+e338581395.358226
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBDialog.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m:322: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+lSLF07#2@79"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m338581394#338581395#0(391"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m:322: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)1(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)338581394#117#274#0(6@71"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m284461985#322#0#322#0#33"'*' is deprecated (declared at *)0(0#0#71"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m8614306176#2521"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBDialog.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBFeedDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.138261
+e338581395.258300
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBFeedDialog.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m338581395#338581395#0(0"0(0#0#75"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m8616694048#2529"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBFeedDialog.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBFeedDialog.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginButton.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.258403
+e338581395.442497
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginButton.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m338581395#338581395#0(0"0(0#0#76"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m8615829984#2531"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginButton.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.358325
+e338581395.535612
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m338581395#338581395#0(0"0(0#0#76"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m8615076096#2531"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBLoginDialog.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBPermissionDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.442592
+e338581395.599276
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBPermissionDialog.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m338581395#338581395#0(0"0(0#0#81"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m8614410752#2541"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBPermissionDialog.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBPermissionDialog.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBRequest.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.535712
+e338581395.918024
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBRequest.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':
+o/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol
+lSLF07#2@80"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m338581395#338581395#0(288"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol1(22@74"Class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol338581395#126#162#0(6@72"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m284461985#180#0#180#0#45"class '*' does not implement the '*' protocol0(0#0#72"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m8616990624#2523"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBRequest.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBSession.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.599375
+e338581395.871592
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBSession.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m338581395#338581395#0(0"0(0#0#72"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m8615768864#2523"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBSession.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBSession.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBStreamDialog.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.871784
+e338581395.995824
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBStreamDialog.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m338581395#338581395#0(0"0(0#0#77"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m8614735072#2533"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBStreamDialog.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBStreamDialog.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBXMLHandler.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.918130
+e338581396.096017
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBXMLHandler.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m338581395#338581396#0(0"0(0#0#75"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m8617149856#2529"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/src/FBXMLHandler.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FBXMLHandler.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FacebookAgent.o /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.675024
+e338581395.138162
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FacebookAgent.o
+x/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m338581394#338581395#0(0"0(0#0#72"/Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m8615665504#2527"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/FacebookAgent/FacebookAgent.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/FacebookAgent.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiKeyboardView.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.602148
+e338581394.674922
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiKeyboardView.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m338581394#338581394#0(0"0(0#0#70"/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m8616291904#2529"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiKeyboardView.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiKeyboardView.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiVowels.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.665307
+e338581394.766760
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiVowels.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m338581394#338581394#0(0"0(0#0#64"/Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m8615899584#2517"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Classes/HindiVowels.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/HindiVowels.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterEngine.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581395.995926
+e338581396.669879
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterEngine.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m338581395#338581396#0(0"0(0#0#90"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m8615980032#2547"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterEngine.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.096117
+e338581396.195203
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m338581396#338581396#0(0"0(0#0#101"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m8615161888#2569"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.195299
+e338581396.440755
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterLibXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m338581396#338581396#0(0"0(0#0#96"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m8614555232#2559"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterLibXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.440853
+e338581396.566892
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m338581396#338581396#0(0"0(0#0#104"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m8616792320#2575"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.566988
+e338581396.649026
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m338581396#338581396#0(0"0(0#0#98"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m8615746752#2563"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMessagesParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.649124
+e338581396.774004
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m338581396#338581396#0(0"0(0#0#100"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m8614715936#2567"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.669976
+e338581396.764088
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m338581396#338581396#0(0"0(0#0#94"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m8613983232#2555"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterMiscParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.764190
+e338581396.880485
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m338581396#338581396#0(0"0(0#0#104"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m8617051424#2575"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.774105
+e338581396.865188
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m338581396#338581396#0(0"0(0#0#98"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m8615938656#2563"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterStatusesParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.865285
+e338581396.984612
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m338581396#338581396#0(0"0(0#0#101"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m8614775168#2569"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.880582
+e338581396.966297
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m338581396#338581396#0(0"0(0#0#95"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m8614569024#2557"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterUsersParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.966394
+e338581397.159541
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterXMLParser.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m338581396#338581397#0(0"0(0#0#93"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m8614378048#2553"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/MGTwitterXMLParser.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSData+Base64.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581396.984709
+e338581397.082739
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSData+Base64.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m338581396#338581397#0(0"0(0#0#88"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m8615519776#2543"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSData+Base64.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSString+UUID.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581397.082834
+e338581397.140583
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSString+UUID.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m338581397#338581397#0(0"0(0#0#88"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m8607005056#2543"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/NSString+UUID.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterController.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581397.140679
+e338581397.574542
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterController.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m338581397#338581397#0(0"0(0#0#105"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m8616064000#2572"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterController.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterEngine.o /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581397.159637
+e338581397.449108
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterEngine.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m338581397#338581397#0(0"0(0#0#101"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m8615679936#2564"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/SA_OAuthTwitterEngine.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardAppDelegate.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.378563
+e338581394.665212
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardAppDelegate.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m338581394#338581394#0(0"0(0#0#79"/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m8614833568#2547"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardAppDelegate.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardAppDelegate.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardViewController.o /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.445073
+e338581394.602052
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardViewController.o
+x/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m338581394#338581394#0(0"0(0#0#82"/Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m8614222240#2553"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/Classes/custom_keyboardViewController.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom_keyboardViewController.o0#
+
+CCompileC build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/main.o /Users/gauravkumar/Desktop/custom-keyboard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338581394.377592
+e338581394.444970
+r1
+xCompileC
+xbuild/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/main.o
+x/Users/gauravkumar/Desktop/custom-keyboard/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/gauravkumar/Desktop/custom-keyboard/main.m338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/main.m8615003872#2495"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-generated-files.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-own-target-headers.hmap -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/custom-keyboard-project-headers.hmap -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -I/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/libxml2/libxml -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch -c /Users/gauravkumar/Desktop/custom-keyboard/main.m -o /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib
+s338581393.237043
+e338581394.377402
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib
+lSLF07#2@32"CompileXIB HindiKeyboardView.xib338581393#338581394#0(0"0(0#0#64"/Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib8600000064#617"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/HindiKeyboardView.nib /Users/gauravkumar/Desktop/custom-keyboard/HindiKeyboardView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib
+s338581393.342236
+e338581394.269332
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:75: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'space:' selector of 'File's Owner', but 'space:' is no longer defined on 'HindiVowels'.
+o/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:74: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'hide_keyboard_view:' selector of 'File's Owner', but 'hide_keyboard_view:' is no longer defined on 'HindiVowels'.
+o/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:73: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'clear:' selector of 'File's Owner', but 'clear:' is no longer defined on 'HindiVowels'.
+o/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:72: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'show_alphabets:' selector of 'File's Owner', but 'show_alphabets:' is no longer defined on 'HindiVowels'.
+lSLF07#2@26"CompileXIB HindiVowels.xib338581393#338581394#0(1001"/* com.apple.ibtool.document.warnings *//Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:75: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'space:' selector of 'File's Owner', but 'space:' is no longer defined on 'HindiVowels'./Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:74: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'hide_keyboard_view:' selector of 'File's Owner', but 'hide_keyboard_view:' is no longer defined on 'HindiVowels'./Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:73: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'clear:' selector of 'File's Owner', but 'clear:' is no longer defined on 'HindiVowels'./Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib:72: warning: The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'show_alphabets:' selector of 'File's Owner', but 'show_alphabets:' is no longer defined on 'HindiVowels'.4(22@156"The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'space:' selector of 'File's Owner', but 'space:' is no longer defined on 'HindiVowels'.338581394#18446744073709551615#0#0(6@58"/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib338580758#75#0#75#0#0"0(22@182"The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'hide_keyboard_view:' selector of 'File's Owner', but 'hide_keyboard_view:' is no longer defined on 'HindiVowels'.338581394#18446744073709551615#0#0(6@58"/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib338580758#74#0#74#0#0"0(22@156"The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'clear:' selector of 'File's Owner', but 'clear:' is no longer defined on 'HindiVowels'.338581394#18446744073709551615#0#0(6@58"/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib338580758#73#0#73#0#0"0(22@174"The 'Touch Down' event of 'Rounded Rect Button' is connected to the 'show_alphabets:' selector of 'File's Owner', but 'show_alphabets:' is no longer defined on 'HindiVowels'.338581394#18446744073709551615#0#0(6@58"/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib338580758#72#0#72#0#0"0(0#0#58"/Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib8599933536#605"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/HindiVowels.nib /Users/gauravkumar/Desktop/custom-keyboard/HindiVowels.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib
+s338581392.830623
+e338581393.236951
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338581392#338581393#0(0"0(0#0#57"/Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib8606626144#603"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/MainWindow.nib /Users/gauravkumar/Desktop/custom-keyboard/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib
+s338581392.831296
+e338581393.342147
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib
+lSLF07#2@44"CompileXIB custom_keyboardViewController.xib338581392#338581393#0(0"0(0#0#76"/Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib8604132320#641"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom_keyboardViewController.nib /Users/gauravkumar/Desktop/custom-keyboard/custom_keyboardViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/Icon.png Icon.png
+s338581394.322629
+e338581394.358466
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png338581394#338581394#0(0"0(0#0#51"/Users/gauravkumar/Desktop/custom-keyboard/Icon.png8615100192#506"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/Icon.png /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/a1.gif a1.gif
+s338581394.290682
+e338581394.316645
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/a1.gif
+xa1.gif
+lSLF07#2@11"Copy a1.gif338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/a1.gif8615844832#504"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/a1.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/a2.gif a2.gif
+s338581394.292722
+e338581394.318548
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/a2.gif
+xa2.gif
+lSLF07#2@11"Copy a2.gif338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/a2.gif8615760320#504"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/a2.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/an1.gif an1.gif
+s338581394.296552
+e338581394.347287
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/an1.gif
+xan1.gif
+lSLF07#2@12"Copy an1.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/an1.gif8615670656#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/an1.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/an3.gif an3.gif
+s338581394.298448
+e338581394.348402
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/an3.gif
+xan3.gif
+lSLF07#2@12"Copy an3.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/an3.gif8615598048#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/an3.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/delete.gif delete.gif
+s338581394.274025
+e338581394.285170
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/delete.gif
+xdelete.gif
+lSLF07#2@15"Copy delete.gif338581394#338581394#0(0"0(0#0#53"/Users/gauravkumar/Desktop/custom-keyboard/delete.gif8617028928#508"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/delete.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/facebook.jpeg facebook.jpeg
+s338581394.275839
+e338581394.292545
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/facebook.jpeg
+xfacebook.jpeg
+lSLF07#2@18"Copy facebook.jpeg338581394#338581394#0(0"0(0#0#56"/Users/gauravkumar/Desktop/custom-keyboard/facebook.jpeg8616967232#511"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/facebook.jpeg /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/globe.gif globe.gif
+s338581394.277673
+e338581394.292657
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/globe.gif
+xglobe.gif
+lSLF07#2@14"Copy globe.gif338581394#338581394#0(0"0(0#0#52"/Users/gauravkumar/Desktop/custom-keyboard/globe.gif8616859520#507"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/globe.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInject.txt "Twitter+OAuth/Libraries & Headers/jQueryInject.txt"
+s338581394.269427
+e338581394.284839
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInject.txt
+xTwitter+OAuth/Libraries & Headers/jQueryInject.txt
+lSLF07#2@55"Copy Twitter+OAuth/Libraries & Headers/jQueryInject.txt338581394#338581394#0(0"0(0#0#93"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInject.txt8603676896#550"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInject.txt" /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInjectLandscape.txt "Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt"
+s338581394.270576
+e338581394.284959
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/jQueryInjectLandscape.txt
+xTwitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt
+lSLF07#2@64"Copy Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt338581394#338581394#0(0"0(0#0#102"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt8619006496#559"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt" /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/oan.gif oan.gif
+s338581394.305969
+e338581394.356753
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/oan.gif
+xoan.gif
+lSLF07#2@12"Copy oan.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/oan.gif8615347136#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/oan.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohm.gif ohm.gif
+s338581394.302098
+e338581394.350204
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/ohm.gif
+xohm.gif
+lSLF07#2@12"Copy ohm.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/ohm.gif8615508608#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/ohm.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ohn.gif ohn.gif
+s338581394.304056
+e338581394.358293
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/ohn.gif
+xohn.gif
+lSLF07#2@12"Copy ohn.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/ohn.gif8615398368#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/ohn.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/return.gif return.gif
+s338581394.279527
+e338581394.296397
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/return.gif
+xreturn.gif
+lSLF07#2@15"Copy return.gif338581394#338581394#0(0"0(0#0#53"/Users/gauravkumar/Desktop/custom-keyboard/return.gif8616750784#508"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/return.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru.gif ru.gif
+s338581394.308872
+e338581394.352632
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/ru.gif
+xru.gif
+lSLF07#2@11"Copy ru.gif338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/ru.gif8615336736#504"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/ru.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru1.gif ru1.gif
+s338581394.316737
+e338581394.358893
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/ru1.gif
+xru1.gif
+lSLF07#2@12"Copy ru1.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/ru1.gif8615249312#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/ru1.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/ru2.gif ru2.gif
+s338581394.318622
+e338581394.362714
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/ru2.gif
+xru2.gif
+lSLF07#2@12"Copy ru2.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/ru2.gif8615176384#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/ru2.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/shift.gif shift.gif
+s338581394.281282
+e338581394.305891
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/shift.gif
+xshift.gif
+lSLF07#2@14"Copy shift.gif338581394#338581394#0(0"0(0#0#52"/Users/gauravkumar/Desktop/custom-keyboard/shift.gif8616671200#507"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/shift.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/space.gif space.gif
+s338581394.282984
+e338581394.298368
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/space.gif
+xspace.gif
+lSLF07#2@14"Copy space.gif338581394#338581394#0(0"0(0#0#52"/Users/gauravkumar/Desktop/custom-keyboard/space.gif8616474144#507"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/space.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/tra.gif tra.gif
+s338581394.294466
+e338581394.322533
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/tra.gif
+xtra.gif
+lSLF07#2@12"Copy tra.gif338581394#338581394#0(0"0(0#0#50"/Users/gauravkumar/Desktop/custom-keyboard/tra.gif8615718592#505"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/tra.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/twiiter.jpeg twiiter.jpeg
+s338581394.285244
+e338581394.303973
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/twiiter.jpeg
+xtwiiter.jpeg
+lSLF07#2@17"Copy twiiter.jpeg338581394#338581394#0(0"0(0#0#55"/Users/gauravkumar/Desktop/custom-keyboard/twiiter.jpeg8616277920#510"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/twiiter.jpeg /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/twitter_load.png Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+s338581394.272318
+e338581394.285060
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/twitter_load.png
+xTwitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+lSLF07#2@56"Copy Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png338581394#338581394#0(0"0(0#0#94"/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png8618321760#549"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/u1.gif u1.gif
+s338581394.287047
+e338581394.308788
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/u1.gif
+xu1.gif
+lSLF07#2@11"Copy u1.gif338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/u1.gif8616019040#504"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/u1.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CCpResource build/iphonedistribution-iphonesimulator/custom-keyboard.app/u2.gif u2.gif
+s338581394.288845
+e338581394.302013
+r1
+xCpResource
+xbuild/iphonedistribution-iphonesimulator/custom-keyboard.app/u2.gif
+xu2.gif
+lSLF07#2@11"Copy u2.gif338581394#338581394#0(0"0(0#0#49"/Users/gauravkumar/Desktop/custom-keyboard/u2.gif8615938144#504"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/gauravkumar/Desktop/custom-keyboard/u2.gif /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+
+CGenerateDSYMFile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard
+s338581397.638022
+e338581397.693355
+r1
+xGenerateDSYMFile
+x/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM
+x/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard
+lSLF07#2@159"GenerateDSYMFile build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard338581397#338581397#0(0"0(0#0#119"/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard8605856064#445"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard -o /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app.dSYM0#
+
+CLd /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard normal i386
+s338581397.574634
+e338581397.637924
+r1
+xLd
+x/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard
+xnormal
+xi386
+lSLF07#2@124"Link /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard338581397#338581397#0(0"0(0#0#0"8608878720#1154"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator "-L/Users/gauravkumar/Desktop/custom-keyboard/Twitter+OAuth/Libraries & Headers" -F/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator -filelist /Users/gauravkumar/Desktop/custom-keyboard/build/custom-keyboard.build/iphonedistribution-iphonesimulator/custom-keyboard.build/Objects-normal/i386/custom-keyboard.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -lxml2 -lOAuth -framework AVFoundation -o /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/custom-keyboard0#
+
+CProcessInfoPlistFile /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Info.plist custom_keyboard-Info.plist
+s338581392.793931
+e338581392.830534
+r1
+xProcessInfoPlistFile
+x/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Info.plist
+xcustom_keyboard-Info.plist
+lSLF07#2@34"Process custom_keyboard-Info.plist338581392#338581392#0(0"0(0#0#69"/Users/gauravkumar/Desktop/custom-keyboard/custom_keyboard-Info.plist8606005312#541"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility custom_keyboard-Info.plist -genpkginfo /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app/Info.plist0#
+
+CProcessPCH /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/custom_keyboard_Prefix-gjmcfeydqrgwgjgevtgxedxrltmz/custom_keyboard_Prefix.pch.gch custom_keyboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app
+s338581397.693439
+e338581397.697659
+r1
+xTouch
+x/Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app
+lSLF07#2@109"Touch /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app338581397#338581397#0(0"0(0#0#0"8616013280#307"    cd /Users/gauravkumar/Desktop/custom-keyboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/gauravkumar/Desktop/custom-keyboard/build/iphonedistribution-iphonesimulator/custom-keyboard.app0#
+

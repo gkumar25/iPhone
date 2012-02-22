@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* twtvAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* twtvAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		9E1255A013833275007C59E5 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E12559013833275007C59E5 /* libOAuth.a */; };
+		9E4FC93C134BD2B900A4E867 /* BCImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E4FC93B134BD2B900A4E867 /* BCImages.bundle */; };
+		9E4FCAE01352685D00A4E867 /* libBrightcoveSharingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4FCADF1352685D00A4E867 /* libBrightcoveSharingKit.a */; };
+		9E7A8BD0133E9DB400AEE59A /* ChanelNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A8BCF133E9DB400AEE59A /* ChanelNavController.m */; };
+		9E7A8BED133EA4A600AEE59A /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A8BEC133EA4A600AEE59A /* test.m */; };
+		9E92F806134A72B900A2D120 /* AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E92F805134A72B900A2D120 /* AsynchronousImageView.m */; };
+		9E92F82E134A744200A2D120 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E92F82D134A744200A2D120 /* AppUtils.m */; };
+		9E92F831134A747A00A2D120 /* TimeCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E92F830134A747A00A2D120 /* TimeCodeManager.m */; };
+		9E932231132844B900AF44F7 /* libBrightcoveMediaAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E932230132844B900AF44F7 /* libBrightcoveMediaAPI.a */; };
+		9E932233132844DF00AF44F7 /* libBrightcovePlayerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E932232132844DF00AF44F7 /* libBrightcovePlayerKit.a */; };
+		9E93223E132845C600AF44F7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E93223D132845C600AF44F7 /* MediaPlayer.framework */; };
+		9E932292132845D900AF44F7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E932291132845D900AF44F7 /* OpenGLES.framework */; };
+		9E932294132845EA00AF44F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E932293132845EA00AF44F7 /* QuartzCore.framework */; };
+		9E9322981328463B00AF44F7 /* BCImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E9322971328463B00AF44F7 /* BCImages.bundle */; };
+		9E9322A213294CC100AF44F7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9322A113294CC100AF44F7 /* Reachability.m */; };
+		9E9322A813294D2700AF44F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9322A713294D2700AF44F7 /* SystemConfiguration.framework */; };
+		9E9322AD13294F6200AF44F7 /* ErrorHandlerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9322AC13294F6200AF44F7 /* ErrorHandlerService.m */; };
+		9E9323DB1329911E00AF44F7 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9323DA1329911E00AF44F7 /* libxml2.2.7.3.dylib */; };
+		9E9323F21329928800AF44F7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9323F11329928800AF44F7 /* MessageUI.framework */; };
+		9E9326DA132ADDAA00AF44F7 /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9326D9132ADDAA00AF44F7 /* MoviePlayerViewController.m */; };
+		9E9326DD132ADDD100AF44F7 /* ScrollCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9326DC132ADDD100AF44F7 /* ScrollCellViewController.m */; };
+		9E9326E0132ADDFD00AF44F7 /* ScrollingPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9326DF132ADDFD00AF44F7 /* ScrollingPlaylistViewController.m */; };
+		9E9326E3132ADE1C00AF44F7 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9326E2132ADE1C00AF44F7 /* VideoDetailViewController.m */; };
+		9EFBE4D2133162A00025945A /* ChanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBE4D1133162A00025945A /* ChanelViewController.m */; };
+		9EFBE4D5133163D50025945A /* ChanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFBE4D4133163D50025945A /* ChanelView.xib */; };
+		9EFBE915133943ED0025945A /* video.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFBE914133943ED0025945A /* video.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* twtvAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twtvAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* twtvAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twtvAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* twtv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twtv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* twtv_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twtv_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* twtv-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "twtv-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9E12559013833275007C59E5 /* libOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuth.a; path = ../OAuthConsumer/libOAuth.a; sourceTree = SOURCE_ROOT; };
+		9E12559113833275007C59E5 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+Parameters.h"; path = "../OAuthConsumer/NSMutableURLRequest+Parameters.h"; sourceTree = SOURCE_ROOT; };
+		9E12559213833275007C59E5 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "../OAuthConsumer/NSString+URLEncoding.h"; sourceTree = SOURCE_ROOT; };
+		9E12559313833275007C59E5 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Base.h"; path = "../OAuthConsumer/NSURL+Base.h"; sourceTree = SOURCE_ROOT; };
+		9E12559413833275007C59E5 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAAsynchronousDataFetcher.h; path = ../OAuthConsumer/OAAsynchronousDataFetcher.h; sourceTree = SOURCE_ROOT; };
+		9E12559513833275007C59E5 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAConsumer.h; path = ../OAuthConsumer/OAConsumer.h; sourceTree = SOURCE_ROOT; };
+		9E12559613833275007C59E5 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OADataFetcher.h; path = ../OAuthConsumer/OADataFetcher.h; sourceTree = SOURCE_ROOT; };
+		9E12559713833275007C59E5 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAHMAC_SHA1SignatureProvider.h; path = ../OAuthConsumer/OAHMAC_SHA1SignatureProvider.h; sourceTree = SOURCE_ROOT; };
+		9E12559813833275007C59E5 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAMutableURLRequest.h; path = ../OAuthConsumer/OAMutableURLRequest.h; sourceTree = SOURCE_ROOT; };
+		9E12559913833275007C59E5 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAPlaintextSignatureProvider.h; path = ../OAuthConsumer/OAPlaintextSignatureProvider.h; sourceTree = SOURCE_ROOT; };
+		9E12559A13833275007C59E5 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = ../OAuthConsumer/OARequestParameter.h; sourceTree = SOURCE_ROOT; };
+		9E12559B13833275007C59E5 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAServiceTicket.h; path = ../OAuthConsumer/OAServiceTicket.h; sourceTree = SOURCE_ROOT; };
+		9E12559C13833275007C59E5 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OASignatureProviding.h; path = ../OAuthConsumer/OASignatureProviding.h; sourceTree = SOURCE_ROOT; };
+		9E12559D13833275007C59E5 /* OAToken_KeychainExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAToken_KeychainExtensions.h; path = ../OAuthConsumer/OAToken_KeychainExtensions.h; sourceTree = SOURCE_ROOT; };
+		9E12559E13833275007C59E5 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAToken.h; path = ../OAuthConsumer/OAToken.h; sourceTree = SOURCE_ROOT; };
+		9E12559F13833275007C59E5 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthConsumer.h; path = ../OAuthConsumer/OAuthConsumer.h; sourceTree = SOURCE_ROOT; };
+		9E4FC93B134BD2B900A4E867 /* BCImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BCImages.bundle; path = "bc-ipad-iphone-kit-2.0.1/BCImages.bundle"; sourceTree = SOURCE_ROOT; };
+		9E4FCADF1352685D00A4E867 /* libBrightcoveSharingKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBrightcoveSharingKit.a; path = "/Developer/Brightcove/bc-ipad-iphone-kit-2.0.2/lib/libBrightcoveSharingKit.a"; sourceTree = "<absolute>"; };
+		9E7A8BCE133E9DB400AEE59A /* ChanelNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanelNavController.h; sourceTree = "<group>"; };
+		9E7A8BCF133E9DB400AEE59A /* ChanelNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChanelNavController.m; sourceTree = "<group>"; };
+		9E7A8BEB133EA4A600AEE59A /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		9E7A8BEC133EA4A600AEE59A /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		9E92F804134A72B900A2D120 /* AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageView.h; sourceTree = "<group>"; };
+		9E92F805134A72B900A2D120 /* AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageView.m; sourceTree = "<group>"; };
+		9E92F807134A72E600A2D120 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9E92F82C134A744200A2D120 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		9E92F82D134A744200A2D120 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		9E92F82F134A747A00A2D120 /* TimeCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCodeManager.h; sourceTree = "<group>"; };
+		9E92F830134A747A00A2D120 /* TimeCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCodeManager.m; sourceTree = "<group>"; };
+		9E932230132844B900AF44F7 /* libBrightcoveMediaAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBrightcoveMediaAPI.a; path = "/Developer/Brightcove/bc-media-api-2.0.1/lib/libBrightcoveMediaAPI.a"; sourceTree = "<absolute>"; };
+		9E932232132844DF00AF44F7 /* libBrightcovePlayerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBrightcovePlayerKit.a; path = "/Developer/Brightcove/bc-ipad-iphone-kit-2.0.2/lib/libBrightcovePlayerKit.a"; sourceTree = "<absolute>"; };
+		9E93223D132845C600AF44F7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9E932291132845D900AF44F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9E932293132845EA00AF44F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E9322971328463B00AF44F7 /* BCImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BCImages.bundle; path = "Brightcove/bc-ipad-iphone-kit-2.0.2/BCImages.bundle"; sourceTree = DEVELOPER_DIR; };
+		9E9322A013294CC100AF44F7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9E9322A113294CC100AF44F7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9E9322A713294D2700AF44F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9E9322AB13294F6200AF44F7 /* ErrorHandlerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandlerService.h; sourceTree = "<group>"; };
+		9E9322AC13294F6200AF44F7 /* ErrorHandlerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHandlerService.m; sourceTree = "<group>"; };
+		9E9323DA1329911E00AF44F7 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		9E9323F11329928800AF44F7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9E9326D8132ADDAA00AF44F7 /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		9E9326D9132ADDAA00AF44F7 /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		9E9326DB132ADDD100AF44F7 /* ScrollCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCellViewController.h; sourceTree = "<group>"; };
+		9E9326DC132ADDD100AF44F7 /* ScrollCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCellViewController.m; sourceTree = "<group>"; };
+		9E9326DE132ADDFD00AF44F7 /* ScrollingPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingPlaylistViewController.h; sourceTree = "<group>"; };
+		9E9326DF132ADDFD00AF44F7 /* ScrollingPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingPlaylistViewController.m; sourceTree = "<group>"; };
+		9E9326E1132ADE1C00AF44F7 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		9E9326E2132ADE1C00AF44F7 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		9EFBE4D0133162A00025945A /* ChanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanelViewController.h; sourceTree = "<group>"; };
+		9EFBE4D1133162A00025945A /* ChanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChanelViewController.m; sourceTree = "<group>"; };
+		9EFBE4D4133163D50025945A /* ChanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChanelView.xib; sourceTree = "<group>"; };
+		9EFBE914133943ED0025945A /* video.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = video.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				9E932231132844B900AF44F7 /* libBrightcoveMediaAPI.a in Frameworks */,
+				9E932233132844DF00AF44F7 /* libBrightcovePlayerKit.a in Frameworks */,
+				9E93223E132845C600AF44F7 /* MediaPlayer.framework in Frameworks */,
+				9E932292132845D900AF44F7 /* OpenGLES.framework in Frameworks */,
+				9E932294132845EA00AF44F7 /* QuartzCore.framework in Frameworks */,
+				9E9322A813294D2700AF44F7 /* SystemConfiguration.framework in Frameworks */,
+				9E9323DB1329911E00AF44F7 /* libxml2.2.7.3.dylib in Frameworks */,
+				9E9323F21329928800AF44F7 /* MessageUI.framework in Frameworks */,
+				9E4FCAE01352685D00A4E867 /* libBrightcoveSharingKit.a in Frameworks */,
+				9E1255A013833275007C59E5 /* libOAuth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FC93B134BD2B900A4E867 /* BCImages.bundle */,
+				9E9322B01329508A00AF44F7 /* Views */,
+				9E93229F132949B800AF44F7 /* service */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				1D3623240D0F684500981E51 /* twtvAppDelegate.h */,
+				1D3623250D0F684500981E51 /* twtvAppDelegate.m */,
+				9E92F82C134A744200A2D120 /* AppUtils.h */,
+				9E92F82D134A744200A2D120 /* AppUtils.m */,
+				9E92F82F134A747A00A2D120 /* TimeCodeManager.h */,
+				9E92F830134A747A00A2D120 /* TimeCodeManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* twtv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* twtv */ = {
+			isa = PBXGroup;
+			children = (
+				9E12558F138331F9007C59E5 /* OAuthConsume */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9E932230132844B900AF44F7 /* libBrightcoveMediaAPI.a */,
+				9E932232132844DF00AF44F7 /* libBrightcovePlayerKit.a */,
+				9E9323DA1329911E00AF44F7 /* libxml2.2.7.3.dylib */,
+				9E9323F11329928800AF44F7 /* MessageUI.framework */,
+				9E4FCADF1352685D00A4E867 /* libBrightcoveSharingKit.a */,
+			);
+			name = twtv;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* twtv_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				9E92F804134A72B900A2D120 /* AsynchronousImageView.h */,
+				9E92F805134A72B900A2D120 /* AsynchronousImageView.m */,
+				9E92F807134A72E600A2D120 /* Constants.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E9322971328463B00AF44F7 /* BCImages.bundle */,
+				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* twtv-Info.plist */,
+				9EFBE4D4133163D50025945A /* ChanelView.xib */,
+				9EFBE914133943ED0025945A /* video.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				9E93223D132845C600AF44F7 /* MediaPlayer.framework */,
+				9E932291132845D900AF44F7 /* OpenGLES.framework */,
+				9E932293132845EA00AF44F7 /* QuartzCore.framework */,
+				9E9322A713294D2700AF44F7 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E12558F138331F9007C59E5 /* OAuthConsume */ = {
+			isa = PBXGroup;
+			children = (
+				9E12559013833275007C59E5 /* libOAuth.a */,
+				9E12559113833275007C59E5 /* NSMutableURLRequest+Parameters.h */,
+				9E12559213833275007C59E5 /* NSString+URLEncoding.h */,
+				9E12559313833275007C59E5 /* NSURL+Base.h */,
+				9E12559413833275007C59E5 /* OAAsynchronousDataFetcher.h */,
+				9E12559513833275007C59E5 /* OAConsumer.h */,
+				9E12559613833275007C59E5 /* OADataFetcher.h */,
+				9E12559713833275007C59E5 /* OAHMAC_SHA1SignatureProvider.h */,
+				9E12559813833275007C59E5 /* OAMutableURLRequest.h */,
+				9E12559913833275007C59E5 /* OAPlaintextSignatureProvider.h */,
+				9E12559A13833275007C59E5 /* OARequestParameter.h */,
+				9E12559B13833275007C59E5 /* OAServiceTicket.h */,
+				9E12559C13833275007C59E5 /* OASignatureProviding.h */,
+				9E12559D13833275007C59E5 /* OAToken_KeychainExtensions.h */,
+				9E12559E13833275007C59E5 /* OAToken.h */,
+				9E12559F13833275007C59E5 /* OAuthConsumer.h */,
+			);
+			name = OAuthConsume;
+			sourceTree = "<group>";
+		};
+		9E93229F132949B800AF44F7 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				9E9322A013294CC100AF44F7 /* Reachability.h */,
+				9E9322A113294CC100AF44F7 /* Reachability.m */,
+				9E9322AB13294F6200AF44F7 /* ErrorHandlerService.h */,
+				9E9322AC13294F6200AF44F7 /* ErrorHandlerService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		9E9322B01329508A00AF44F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E9326D8132ADDAA00AF44F7 /* MoviePlayerViewController.h */,
+				9E9326D9132ADDAA00AF44F7 /* MoviePlayerViewController.m */,
+				9E9326DB132ADDD100AF44F7 /* ScrollCellViewController.h */,
+				9E9326DC132ADDD100AF44F7 /* ScrollCellViewController.m */,
+				9E9326DE132ADDFD00AF44F7 /* ScrollingPlaylistViewController.h */,
+				9E9326DF132ADDFD00AF44F7 /* ScrollingPlaylistViewController.m */,
+				9E9326E1132ADE1C00AF44F7 /* VideoDetailViewController.h */,
+				9E9326E2132ADE1C00AF44F7 /* VideoDetailViewController.m */,
+				9EFBE4D0133162A00025945A /* ChanelViewController.h */,
+				9EFBE4D1133162A00025945A /* ChanelViewController.m */,
+				9E7A8BCE133E9DB400AEE59A /* ChanelNavController.h */,
+				9E7A8BCF133E9DB400AEE59A /* ChanelNavController.m */,
+				9E7A8BEB133EA4A600AEE59A /* test.h */,
+				9E7A8BEC133EA4A600AEE59A /* test.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* twtv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "twtv" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twtv;
+			productName = twtv;
+			productReference = 1D6058910D05DD3D006BFB54 /* twtv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "twtv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* twtv */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* twtv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				9E9322981328463B00AF44F7 /* BCImages.bundle in Resources */,
+				9EFBE4D5133163D50025945A /* ChanelView.xib in Resources */,
+				9EFBE915133943ED0025945A /* video.xib in Resources */,
+				9E4FC93C134BD2B900A4E867 /* BCImages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* twtvAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				9E9322A213294CC100AF44F7 /* Reachability.m in Sources */,
+				9E9322AD13294F6200AF44F7 /* ErrorHandlerService.m in Sources */,
+				9E9326DA132ADDAA00AF44F7 /* MoviePlayerViewController.m in Sources */,
+				9E9326DD132ADDD100AF44F7 /* ScrollCellViewController.m in Sources */,
+				9E9326E0132ADDFD00AF44F7 /* ScrollingPlaylistViewController.m in Sources */,
+				9E9326E3132ADE1C00AF44F7 /* VideoDetailViewController.m in Sources */,
+				9EFBE4D2133162A00025945A /* ChanelViewController.m in Sources */,
+				9E7A8BD0133E9DB400AEE59A /* ChanelNavController.m in Sources */,
+				9E7A8BED133EA4A600AEE59A /* test.m in Sources */,
+				9E92F806134A72B900A2D120 /* AsynchronousImageView.m in Sources */,
+				9E92F82E134A744200A2D120 /* AppUtils.m in Sources */,
+				9E92F831134A747A00A2D120 /* TimeCodeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = twtv_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/Brightcove/bc-ipad-iphone-kit-2.0.2/lib/**",
+					"/Developer/Brightcove/bc-media-api-2.0.1/lib/**",
+				);
+				INFOPLIST_FILE = "twtv-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-media-api-2.0.1/lib\"",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-ipad-iphone-kit-2.0.2/lib\"",
+					"\"$(SRCROOT)/../oneplanet/bc-ipad-iphone-kit-2.0.1/OAuthConsumer\"",
+					"\"$(SRCROOT)/bc-ipad-iphone-kit-2.0.1/OAuthConsumer\"",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-ipad-iphone-kit-2.0.2/OAuthConsumer\"",
+					"\"$(SRCROOT)/../OAuthConsumer\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = twtv;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = twtv_Prefix.pch;
+				INFOPLIST_FILE = "twtv-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-media-api-2.0.1/lib\"",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-ipad-iphone-kit-2.0.2/lib\"",
+					"\"$(SRCROOT)/../oneplanet/bc-ipad-iphone-kit-2.0.1/OAuthConsumer\"",
+					"\"$(SRCROOT)/bc-ipad-iphone-kit-2.0.1/OAuthConsumer\"",
+					"\"$(DEVELOPER_DIR)/Brightcove/bc-ipad-iphone-kit-2.0.2/OAuthConsumer\"",
+					"\"$(SRCROOT)/../OAuthConsumer\"",
+				);
+				PRODUCT_NAME = twtv;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/Brightcove/bc-media-api-2.0.1/lib/**",
+					"<Multiple",
+					"values>/**",
+					"/Developer/Brightcove/bc-ipad-iphone-kit-2.0.2/lib/**",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/Brightcove/bc-media-api-2.0.1/lib/**",
+					"<Multiple",
+					"values>/**",
+					"/Developer/Brightcove/bc-ipad-iphone-kit-2.0.2/lib/**",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "twtv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "twtv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

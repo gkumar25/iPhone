@@ -1,0 +1,273 @@
+Ttwtv
+v7
+r0
+t321405162.801753
+cCheck dependencies
+cProcessInfoPlistFile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/Info.plist twtv-Info.plist
+cCompileXIB /Users/gauravkumar/Desktop/twtv/MainWindow.xib
+cCompileXIB /Users/gauravkumar/Desktop/twtv/SecondView.xib
+cCompileXIB /Users/gauravkumar/Desktop/twtv/FirstView.xib
+cProcessPCH /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch.gch twtv_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/main.o /Users/gauravkumar/Desktop/twtv/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtvAppDelegate.o /Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/FirstViewController.o /Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv normal i386
+cGenerateDSYMFile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app.dSYM /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv
+cTouch /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.h
+c000000004D78095F00000000000000E8
+t1299712351
+s232
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m
+c000000004D78095F00000000000005AF
+t1299712351
+s1455
+i"FirstViewController.h"
+
+N/Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.h
+c000000004D78095F00000000000001D1
+t1299712351
+s465
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m
+c000000004D78095F0000000000000C2A
+t1299712351
+s3114
+i"twtvAppDelegate.h"
+
+N/Users/gauravkumar/Desktop/twtv/FirstView.xib
+c000000004D78095F00000000000049CE
+t1299712351
+s18894
+
+N/Users/gauravkumar/Desktop/twtv/MainWindow.xib
+c000000004D78095F0000000000006422
+t1299712351
+s25634
+
+N/Users/gauravkumar/Desktop/twtv/SecondView.xib
+c000000004D78095F00000000000049CC
+t1299712351
+s18892
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app
+t1299712362
+s272
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app.dSYM
+t1299712362
+s102
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/FirstView.nib
+t1299712360
+s2879
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/Info.plist
+t1299712360
+s579
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/MainWindow.nib
+t1299712360
+s3050
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/PkgInfo
+t1299712360
+s8
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/SecondView.nib
+t1299712360
+s2876
+
+N/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv
+t1299712362
+s16892
+
+N/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/FirstViewController.o
+t1299712362
+s34396
+
+N/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/main.o
+t1299712362
+s6288
+
+N/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtv.LinkFileList
+c000000004D7809680000000000000161
+t1299712360
+s353
+
+N/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtvAppDelegate.o
+t1299712362
+s51036
+
+N/Users/gauravkumar/Desktop/twtv/main.m
+c000000004D78095F0000000000000163
+t1299712351
+s355
+i<UIKit/UIKit.h>
+
+N/Users/gauravkumar/Desktop/twtv/twtv_Prefix.pch
+c000000004D78095F00000000000000B1
+t1299712351
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch.gch
+t1299712362
+s15211536
+
+Ntwtv-Info.plist
+c000000004D78095F000000000000038D
+t1299712351
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321405160#321405160#0(0"0(0#1#0"8640919808#0"0#
+
+CCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/FirstViewController.o /Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321405162.509771
+e321405162.569363
+r1
+xCompileC
+xbuild/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/FirstViewController.o
+x/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m321405162#321405162#0(0"0(0#0#61"/Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m8639899712#1815"    cd /Users/gauravkumar/Desktop/twtv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-generated-files.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-own-target-headers.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-project-headers.hmap -F/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -I/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/include -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch -c /Users/gauravkumar/Desktop/twtv/Classes/FirstViewController.m -o /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/main.o /Users/gauravkumar/Desktop/twtv/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321405162.341975
+e321405162.509671
+r1
+xCompileC
+xbuild/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/main.o
+x/Users/gauravkumar/Desktop/twtv/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/gauravkumar/Desktop/twtv/main.m321405162#321405162#0(0"0(0#0#38"/Users/gauravkumar/Desktop/twtv/main.m8637284896#1777"    cd /Users/gauravkumar/Desktop/twtv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-generated-files.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-own-target-headers.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-project-headers.hmap -F/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -I/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/include -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch -c /Users/gauravkumar/Desktop/twtv/main.m -o /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/main.o0#
+
+CCompileC build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtvAppDelegate.o /Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321405162.342928
+e321405162.511322
+r1
+xCompileC
+xbuild/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtvAppDelegate.o
+x/Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m321405162#321405162#0(0"0(0#0#57"/Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m8642193408#1807"    cd /Users/gauravkumar/Desktop/twtv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-generated-files.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-own-target-headers.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-project-headers.hmap -F/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -I/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/include -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources -include /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch -c /Users/gauravkumar/Desktop/twtv/Classes/twtvAppDelegate.m -o /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtvAppDelegate.o0#
+
+CCompileXIB /Users/gauravkumar/Desktop/twtv/FirstView.xib
+s321405160.567788
+e321405160.980647
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/twtv/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib321405160#321405160#0(0"0(0#0#45"/Users/gauravkumar/Desktop/twtv/FirstView.xib8638605120#544"    cd /Users/gauravkumar/Desktop/twtv    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/FirstView.nib /Users/gauravkumar/Desktop/twtv/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/gauravkumar/Desktop/twtv/MainWindow.xib
+s321405160.071893
+e321405160.567699
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/twtv/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321405160#321405160#0(0"0(0#0#46"/Users/gauravkumar/Desktop/twtv/MainWindow.xib8640974176#546"    cd /Users/gauravkumar/Desktop/twtv    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/MainWindow.nib /Users/gauravkumar/Desktop/twtv/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/gauravkumar/Desktop/twtv/SecondView.xib
+s321405160.128198
+e321405160.698985
+r1
+xCompileXIB
+x/Users/gauravkumar/Desktop/twtv/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib321405160#321405160#0(0"0(0#0#46"/Users/gauravkumar/Desktop/twtv/SecondView.xib8640392480#546"    cd /Users/gauravkumar/Desktop/twtv    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/SecondView.nib /Users/gauravkumar/Desktop/twtv/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app.dSYM /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv
+s321405162.743074
+e321405162.798758
+r1
+xGenerateDSYMFile
+x/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app.dSYM
+x/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/twtv.app.dSYM build/Debug-iphonesimulator/twtv.app/twtv321405162#321405162#0(0"0(0#0#73"/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv8633317024#353"    cd /Users/gauravkumar/Desktop/twtv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv -o /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app.dSYM0#
+
+CLd /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv normal i386
+s321405162.569455
+e321405162.742983
+r1
+xLd
+x/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv
+xnormal
+xi386
+lSLF07#2@78"Link /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv321405162#321405162#0(0"0(0#0#0"8637578048#850"    cd /Users/gauravkumar/Desktop/twtv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -F/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -filelist /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/Objects-normal/i386/twtv.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/twtv0#
+
+CProcessInfoPlistFile /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/Info.plist twtv-Info.plist
+s321405160.067661
+e321405160.071800
+r1
+xProcessInfoPlistFile
+x/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/Info.plist
+xtwtv-Info.plist
+lSLF07#2@23"Process twtv-Info.plist321405160#321405160#0(0"0(0#0#47"/Users/gauravkumar/Desktop/twtv/twtv-Info.plist8641594592#449"    cd /Users/gauravkumar/Desktop/twtv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility twtv-Info.plist -genpkginfo /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app/Info.plist0#
+
+CProcessPCH /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch.gch twtv_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321405160.980942
+e321405162.341830
+r1
+xProcessPCH
+x/var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch.gch
+xtwtv_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile twtv_Prefix.pch321405160#321405162#0(0"0(0#0#47"/Users/gauravkumar/Desktop/twtv/twtv_Prefix.pch8636691232#1679"    cd /Users/gauravkumar/Desktop/twtv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-generated-files.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-own-target-headers.hmap -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-all-target-headers.hmap -iquote /Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/twtv-project-headers.hmap -F/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator -I/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/include -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources/i386 -I/Users/gauravkumar/Desktop/twtv/build/twtv.build/Debug-iphonesimulator/twtv.build/DerivedSources -c /Users/gauravkumar/Desktop/twtv/twtv_Prefix.pch -o /var/folders/Qc/Qcp6vb+lH54yzCKS2pmtmU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/twtv_Prefix-abigrqbhnolfhufyktcvsocjxuxh/twtv_Prefix.pch.gch0#
+
+CTouch /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app
+s321405162.798846
+e321405162.801710
+r1
+xTouch
+x/Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app
+lSLF07#2@74"Touch /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app321405162#321405162#0(0"0(0#0#0"8626628512#261"    cd /Users/gauravkumar/Desktop/twtv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/gauravkumar/Desktop/twtv/build/Debug-iphonesimulator/twtv.app0#
+

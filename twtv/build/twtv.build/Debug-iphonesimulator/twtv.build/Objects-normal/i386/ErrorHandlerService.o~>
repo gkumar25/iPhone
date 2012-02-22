@@ -1,0 +1,2 @@
+In file included from /Users/gauravkumar/Desktop/twtv/Classes/ErrorHandlerService.m:25:
+/Users/gauravkumar/Desktop/twtv/Classes/ErrorHandlerService.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
